@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+    <meta charset="UTF-8"/>
+    <head>Calc
+        <link rel="stylesheet" type="text/css" href="calc.css">
+    </head>
+    <body>
+        <div class="calc">
+            <div class = "disScrn">
+                <input type="text" id="result" disabled placeholder="Result" class="rsScrn"><br>
+                <input type="text" id="display" class="inScrn">
+            </div>
+            <input type="button" value="1" onClick="disNum('1')" class="button">
+            <input type="button" value="2" onClick="disNum('2')" class="button">
+            <input type="button" value="3" onClick="disNum('3')" class="button">
+            <input type="button" value="4" onClick="disNum('4')" class="button">
+            <input type="button" value="5" onClick="disNum('5')" class="button">
+            <input type="button" value="6" onClick="disNum('6')" class="button">
+            <input type="button" value="7" onClick="disNum('7')" class="button">
+            <input type="button" value="8" onClick="disNum('8')" class="button">
+            <input type="button" value="9" onClick="disNum('9')" class="button">
+            <input type="button" value="    0    " onClick="disNum('0')" class="button">
+        <div class="opGrid">
+            <input type="button" value="+" onClick="disOp('+')" class="btnOp">
+            <input type="button" value="-" onClick="disOp('-')" class="btnOp">
+            <input type="button" value="*" onClick="disOp('*')" class="btnOp">
+            <input type="button" value="/" onClick="disOp('/')" class="btnOp">
+            <input type="button" value="=" onClick="disOp('=')" class="btnOp">
+        </div>
+            <input type="button" value="." onclick="disNum('.')" class="btnDec">
+            <input type="button" value="C" onClick="clr()" class="btnClr">
+        </div>
+        <script src= "/home/justin/Calculator/calc.js"></script>
+    </body>
+</html>
